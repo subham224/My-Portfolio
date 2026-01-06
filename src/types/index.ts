@@ -1,0 +1,28 @@
+export interface PersonalInfo {
+  name: string;
+  title: string;
+  email: string;
+  phone: string;
+  location: string;
+  linkedin: string;
+  // These are the new fields we added:
+  heroTitle: string;
+  heroSubtitle: string;
+  heroDescription: string;
+  about: string;
+}
+
+export interface Project {
+  id: number;
+  title: string;
+  description: string;
+  techStack: string[];
+  repoLink: string;
+  liveLink: string;
+}
+
+export interface PortfolioData {
+  personalInfo: PersonalInfo;
+  skills: string[]; // Note: Skills is now a simple string array
+  projects: Project[];
+}

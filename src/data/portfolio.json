@@ -1,0 +1,78 @@
+{
+  "personalInfo": {
+    "name": "Subham Panigrahy",
+    "title": "FULL‑STACK WEB DEVELOPER",
+    "email": "panigrahysubham11@gmail.com",
+    "phone": "+91 9090535462",
+    "location": "Berhampur, Ganjam, Odisha",
+    "linkedin": "in/subham-p-814a93258",
+    "heroTitle": "Hello, I'm Subham.",
+    "heroDescription": "Passionate about crafting robust backends and sleek, accessible frontends. I love turning complex ideas into delightful, performant products.",
+    "about": "I'm a FullStack Developer focused on building end‑to‑end solutions: API design, databases, and modern UI. I enjoy developer tooling, automation.\n\nWhen I'm not shipping features, I'm exploring new frameworks. Skilled in designing and implementing scalable web applications, integrating Al-powered features, and leveraging data-driven insights to support strategic decision-making."
+  },
+  "skills": [
+    "HTML/CSS",
+    "JavaScript",
+    "React JS & Next JS",
+    "Node.js / Express JS",
+    "MySQL & MongoDB"," PostgresSQL",
+    "Python / FastAPI","Java","C","C#","ASP.NET",
+    "Git & GitHub","Postman","AWS","Azure",
+    "Linux","Docker","Computer Networks","UI Design","DSA"
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Problem Solving Through Programming in C",
+      "issuer": "NPTEL",
+      "date": "2023",
+      "credentialId": "",
+      "logo": "/file.svg",
+      "verificationUrl": "https://www.linkedin.com/in/subham-p-814a93258/"
+    },
+    {
+      "id": 2,
+      "name": "Data Science and Visualization using Python",
+      "issuer": "NIST University",
+      "date": "2024",
+      "credentialId": "",
+      "logo": "/file.svg",
+      "verificationUrl": "https://www.linkedin.com/in/subham-p-814a93258/"
+    },
+    {
+      "id": 3,
+      "name": "Cloud Computing",
+      "issuer": "NIST University",
+      "date": "2025",
+      "credentialId": "",
+      "logo": "/file.svg",
+      "verificationUrl": "https://www.linkedin.com/in/subham-p-814a93258/"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Automated Penetration Testing Tool",
+      "description": "Systematically scans, identifies, and reports security vulnerabilities by taking website URL as input.",
+      "techStack": ["React","CSS","Python", "FastAPI","Web Socket", " Kali Linux tools and Environment"],
+      "repoLink": "https://github.com/subham224",
+      "liveLink": "#"
+    },
+    {
+      "id": 2,
+      "title": "Real-Time Spatial Communication Platform",
+      "description": "A secure, real-time communication platform that enables users to instantly create, manage, and join synchronized chat channels across any device.",
+"techStack": ["Next.js 15"," React", "Tailwind CSS", "Framer Motion", "Stream SDK", "Clerk Auth", "Server Actions", "Real-time WebSockets", "3D UI Design"],
+      "repoLink": "https://github.com/subham224",
+      "liveLink": "https://chat-app-five-gold-58.vercel.app/"
+    },
+    {
+      "id": 3,
+      "title": "Portfolio Website",
+      "description": "A customizable design template that showcases my work, skills, and projects in a visually appealing and organized manner.",
+      "techStack": ["Next.js", "Tailwind CSS", "Three.js"],
+      "repoLink": "https://github.com/subham224",
+      "liveLink": "#"
+    }
+  ]
+}
