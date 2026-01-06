@@ -70,7 +70,7 @@
       "id": 3,
       "title": "Portfolio Website",
       "description": "A customizable design template that showcases my work, skills, and projects in a visually appealing and organized manner.",
-      "techStack": ["Next.js", "Tailwind CSS", "Three.js"],
+      "techStack": ["Next.js", "CSS","JavaScript","Typescript"],
       "repoLink": "https://github.com/subham224",
       "liveLink": "#"
     }
