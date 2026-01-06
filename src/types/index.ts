@@ -1,3 +1,17 @@
+// export interface PersonalInfo {
+//   name: string;
+//   title: string;
+//   email: string;
+//   phone: string;
+//   location: string;
+//   linkedin: string;
+//  
+//   heroTitle: string;
+//   heroSubtitle: string;
+//   heroDescription: string;
+//   about: string;
+// }
+
 export interface PersonalInfo {
   name: string;
   title: string;
@@ -5,9 +19,8 @@ export interface PersonalInfo {
   phone: string;
   location: string;
   linkedin: string;
-  // These are the new fields we added:
   heroTitle: string;
-  heroSubtitle: string;
+  heroSubtitle?: string; 
   heroDescription: string;
   about: string;
 }
