@@ -19,6 +19,7 @@ export interface PersonalInfo {
   phone: string;
   location: string;
   linkedin: string;
+  github: string;
   heroTitle: string;
   heroSubtitle?: string; 
   heroDescription: string;
@@ -34,8 +35,28 @@ export interface Project {
   liveLink: string;
 }
 
+export interface Experience {
+  id: number;
+  role: string;
+  organization: string;
+  location: string;
+  duration: string;
+  bullets: string[];
+}
+
+export interface Education {
+  id: number;
+  institution: string;
+  location: string;
+  degree: string;
+  detail: string;
+  duration: string;
+}
+
 export interface PortfolioData {
   personalInfo: PersonalInfo;
   skills: string[]; // Note: Skills is now a simple string array
   projects: Project[];
+  experience: Experience[];
+  education: Education[];
 }

@@ -4,74 +4,143 @@
     "title": "FULL‑STACK WEB DEVELOPER",
     "email": "panigrahysubham11@gmail.com",
     "phone": "+91 9090535462",
-    "location": "Berhampur, Ganjam, Odisha",
-    "linkedin": "in/subham-p-814a93258",
+    "location": "Berhampur, Ganjam, Odisha, India",
+    "linkedin": "in/subham-panigrahy-814a93258",
+    "github": "subham871",
     "heroTitle": "Hello, I'm Subham.",
+    "heroSubtitle": "Full-Stack Developer & Cloud Enthusiast",
     "heroDescription": "Passionate about crafting robust backends and sleek, accessible frontends. I love turning complex ideas into delightful, performant products.",
-    "about": "I'm a FullStack Developer focused on building end‑to‑end solutions: API design, databases, and modern UI. I enjoy developer tooling, automation.\n\nWhen I'm not shipping features, I'm exploring new frameworks. Skilled in designing and implementing scalable web applications, integrating Al-powered features, and leveraging data-driven insights to support strategic decision-making."
+    "about": "I'm a Full-Stack Developer focused on building end‑to‑end solutions: API design, databases, and modern UI. I enjoy developer tooling and automation.\n\nWhen I'm not shipping features, I'm exploring new frameworks and cloud technologies. Skilled in designing and implementing scalable web applications, integrating AI-powered features, and leveraging data-driven insights to support strategic decision-making."
   },
   "skills": [
-    "HTML/CSS",
-    "JavaScript",
-    "React JS & Next JS",
-    "Node.js / Express JS",
-    "MySQL & MongoDB"," PostgresSQL",
-    "Python / FastAPI","Java","C","C#","ASP.NET",
-    "Git & GitHub","Postman","AWS","Azure",
-    "Linux","Docker","Computer Networks","UI Design","DSA"
+    "Python",
+    "JavaScript (ES6+)",
+    "Java",
+    "C",
+    "HTML5",
+    "CSS3",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "FastAPI",
+    "JSP & Servlets",
+    "JDBC",
+    "MongoDB",
+    "SQL",
+    "Git & GitHub",
+    "Postman",
+    "Eclipse",
+    "Docker",
+    "Linux",
+    "AWS",
+    "CI/CD",
+    "RESTful APIs",
+    "WebSockets",
+    "Data Structures & Algorithms",
+    "OOP",
+    "Computer Networks",
+    "Operating Systems",
+    "SAP ABAP",
+    "SAP S/4HANA",
+    "SAP RAP"
   ],
   "certifications": [
     {
       "id": 1,
-      "name": "Problem Solving Through Programming in C",
-      "issuer": "NPTEL",
-      "date": "2023",
+      "name": "AWS Academy Graduate — Cloud Foundations",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "",
       "credentialId": "",
       "logo": "/file.svg",
-      "verificationUrl": "https://www.linkedin.com/in/subham-p-814a93258/"
+      "verificationUrl": "https://linkedin.com/in/subham-panigrahy-814a93258"
     },
     {
       "id": 2,
-      "name": "Data Science and Visualization using Python",
-      "issuer": "NIST University",
-      "date": "2024",
+      "name": "SAP Certified Associate — Back-End Developer, ABAP Cloud",
+      "issuer": "SAP",
+      "date": "",
       "credentialId": "",
       "logo": "/file.svg",
-      "verificationUrl": "https://www.linkedin.com/in/subham-p-814a93258/"
+      "verificationUrl": "https://linkedin.com/in/subham-panigrahy-814a93258"
     },
     {
       "id": 3,
-      "name": "Cloud Computing",
-      "issuer": "NIST University",
-      "date": "2025",
+      "name": "SAP Certified Associate — Business Process Integration with SAP S/4HANA",
+      "issuer": "SAP",
+      "date": "",
       "credentialId": "",
       "logo": "/file.svg",
-      "verificationUrl": "https://www.linkedin.com/in/subham-p-814a93258/"
+      "verificationUrl": "https://linkedin.com/in/subham-panigrahy-814a93258"
+    },
+    {
+      "id": 4,
+      "name": "Problem Solving Through Programming in C",
+      "issuer": "NPTEL",
+      "date": "",
+      "credentialId": "",
+      "logo": "/file.svg",
+      "verificationUrl": "https://linkedin.com/in/subham-panigrahy-814a93258"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Cloud Computing Summer Trainee",
+      "organization": "NIST University",
+      "location": "Berhampur, Odisha",
+      "duration": "May 2025 – Jun 2025",
+      "bullets": [
+        "Proactively upskilled in cloud technologies, provisioning VMs and deploying scalable web apps on AWS and GCP.",
+        "Built a strong foundation in cloud architecture, principles, and deployment strategies through intensive coursework."
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Data Science using Python (ML & DL) Intern",
+      "organization": "NIST University",
+      "location": "Berhampur, Odisha",
+      "duration": "Jul 2024 – Aug 2024",
+      "bullets": [
+        "Presented data analysis and visualization insights to project supervisors, leveraging Python to build introductory ML/DL models.",
+        "Gained practical exposure to data science workflows, predictive modeling fundamentals, and data preprocessing."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "NIST University",
+      "location": "Ganjam, Odisha, India",
+      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "detail": "CGPA: 8.62",
+      "duration": "2022 – 2026"
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Automated Penetration Testing Tool",
-      "description": "Systematically scans, identifies, and reports security vulnerabilities by taking website URL as input.",
-      "techStack": ["React","CSS","Python", "FastAPI","Web Socket", " Kali Linux tools and Environment"],
-      "repoLink": "https://github.com/subham224",
+      "title": "AI-Powered Network Reconnaissance & Vulnerability Scanning Tool",
+      "description": "Built a Python/FastAPI backend that automates reconnaissance into a single-input workflow, eliminating manual scanning steps and pipeline bottlenecks. Integrated Kali Linux security tools (Nmap, Metasploit, Wapiti, Skipfish) into one coordinated pipeline for AI-assisted vulnerability analysis.",
+      "techStack": ["React", "CSS", "Python", "FastAPI", "AI", "Nmap", "Metasploit"],
+      "repoLink": "https://github.com/subham871",
       "liveLink": "#"
     },
     {
       "id": 2,
       "title": "Real-Time Spatial Communication Platform",
-      "description": "A secure, real-time communication platform that enables users to instantly create, manage, and join synchronized chat channels across any device.",
-"techStack": ["Next.js 15"," React", "Tailwind CSS", "Framer Motion", "Stream SDK", "Clerk Auth", "Server Actions", "Real-time WebSockets", "3D UI Design"],
-      "repoLink": "https://github.com/subham224",
+      "description": "A secure, real-time communication platform enabling users to instantly create, manage, and join synchronized chat channels across devices, with WebSocket-based messaging and Server Actions for low-latency communication. Integrated Clerk authentication and the Stream SDK for strong application security and reliability.",
+      "techStack": ["Next.js 15", "React", "Tailwind CSS", "Stream SDK", "Clerk Auth", "WebSockets"],
+      "repoLink": "https://github.com/subham871",
       "liveLink": "https://chat-app-five-gold-58.vercel.app/"
     },
     {
       "id": 3,
       "title": "Portfolio Website",
       "description": "A customizable design template that showcases my work, skills, and projects in a visually appealing and organized manner.",
-      "techStack": ["Next.js", "CSS","JavaScript","Typescript"],
-      "repoLink": "https://github.com/subham224",
+      "techStack": ["Next.js", "CSS", "JavaScript", "TypeScript"],
+      "repoLink": "https://github.com/subham871",
       "liveLink": "#"
     }
   ]

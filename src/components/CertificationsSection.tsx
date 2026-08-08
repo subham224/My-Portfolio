@@ -24,7 +24,7 @@ export default function CertificationsSection({ certifications }: Certifications
     const displayedCertifications = showAll ? certifications : certifications.slice(0, 4);
 
     return (
-        <section id="certifications" className="py-20 relative">
+        <section id="certifications" className="py-16 sm:py-20 relative">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <motion.div
@@ -32,16 +32,16 @@ export default function CertificationsSection({ certifications }: Certifications
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
-                    className="text-center mb-16"
+                    className="text-center mb-12 sm:mb-16"
                 >
                     <div className="flex items-center justify-center mb-4">
-                        <Award className="w-8 h-8 text-cyan-400 mr-3" />
-                        <h2 className="text-4xl md:text-5xl font-bold text-white">
+                        <Award className="w-7 h-7 sm:w-8 sm:h-8 text-cyan-400 mr-3" />
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
                             Certifications
                         </h2>
                     </div>
-                    <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                        Professional certifications that validate my expertise in cloud technologies and DevOps practices
+                    <p className="text-base sm:text-xl text-gray-300 max-w-3xl mx-auto px-2">
+                        Professional certifications that validate my expertise in cloud technologies and enterprise systems
                     </p>
                 </motion.div>
 
@@ -59,8 +59,8 @@ export default function CertificationsSection({ certifications }: Certifications
                         >
                             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6 hover:border-cyan-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10">
                                 {/* Logo and Header */}
-                                <div className="flex items-start space-x-4 mb-4">
-                                    <div className="flex-shrink-0 w-24 h-24 relative">
+                                <div className="flex items-start space-x-3 sm:space-x-4 mb-4">
+                                    <div className="flex-shrink-0 w-14 h-14 sm:w-24 sm:h-24 relative">
                                         <Image
                                             src={cert.logo}
                                             alt={`${cert.issuer} logo`}
@@ -70,14 +70,16 @@ export default function CertificationsSection({ certifications }: Certifications
                                         />
                                     </div>
                                     <div className="flex-1 min-w-0">
-                                        <h3 className="text-xl font-semibold text-white mb-1 group-hover:text-cyan-400 transition-colors">
+                                        <h3 className="text-base sm:text-xl font-semibold text-white mb-1 group-hover:text-cyan-400 transition-colors leading-snug">
                                             {cert.name}
                                         </h3>
                                         <p className="text-gray-300 text-sm mb-2">{cert.issuer}</p>
-                                        <div className="flex items-center text-gray-400 text-sm">
-                                            <Calendar className="w-4 h-4 mr-1" />
-                                            <span>{cert.date}</span>
-                                        </div>
+                                        {cert.date && (
+                                            <div className="flex items-center text-gray-400 text-sm">
+                                                <Calendar className="w-4 h-4 mr-1" />
+                                                <span>{cert.date}</span>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
 
@@ -151,20 +153,10 @@ export default function CertificationsSection({ certifications }: Certifications
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className="mt-16 text-center"
                 >
-                    <div className="inline-flex items-center space-x-8 bg-slate-800/30 backdrop-blur-sm border border-slate-700/50 rounded-xl px-8 py-4">
+                    <div className="inline-flex items-center px-8 py-4 bg-slate-800/30 backdrop-blur-sm border border-slate-700/50 rounded-xl">
                         <div className="text-center">
                             <div className="text-2xl font-bold text-cyan-400">{certifications.length}</div>
                             <div className="text-sm text-gray-400">Active Certifications</div>
-                        </div>
-                        <div className="w-px h-10 bg-slate-600" />
-                        <div className="text-center">
-                            <div className="text-2xl font-bold text-cyan-400">3</div>
-                            <div className="text-sm text-gray-400">Cloud Providers</div>
-                        </div>
-                        <div className="w-px h-10 bg-slate-600" />
-                        <div className="text-center">
-                            <div className="text-2xl font-bold text-cyan-400">2025</div>
-                            <div className="text-sm text-gray-400">Latest Certification</div>
                         </div>
                     </div>
                 </motion.div>

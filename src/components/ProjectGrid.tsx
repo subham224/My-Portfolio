@@ -10,21 +10,21 @@ interface ProjectGridProps {
 
 export default function ProjectGrid({ projects }: ProjectGridProps) {
   return (
-    <section className="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+    <section className="py-16 sm:py-20 px-4 sm:px-6 md:px-12 max-w-7xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="mb-16"
+        className="mb-10 sm:mb-16"
       >
-        <h2 className="text-3xl md:text-5xl font-bold mb-6 flex items-center gap-3">
-          <Code2 className="text-cyan-400" size={40} />
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-6 flex items-center gap-2 sm:gap-3 flex-wrap">
+          <Code2 className="text-cyan-400 flex-shrink-0" size={32} />
           Featured <span className="text-cyan-400">Projects</span>
         </h2>
         <div className="h-1 w-20 bg-cyan-500 rounded-full" />
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         {projects.map((project, index) => (
           <ProjectCard key={project.id} project={project} index={index} />
         ))}
