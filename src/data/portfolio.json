@@ -107,6 +107,18 @@
         "Gained practical exposure to data science workflows, predictive modeling fundamentals, and data preprocessing."
       ]
     }
+    {
+  "id": 3,
+  "role": "SAP ABAP Trainee",
+  "organization": "EME India | OSDA",
+  "location": "Odisha, India",
+  "duration": "Mar 2026 – May 2026",
+  "bullets": [
+    "Mastered core SAP ABAP fundamentals, including Data Dictionary, data types, structures, and internal tables through hands-on enterprise training.",
+    "Developed Classical and Interactive Reports and practiced enhancement techniques such as User Exits and BADIs to customize and extend standard SAP functionalities.",
+    "Used SAP GUI and Eclipse ADT to develop, debug, and test ABAP programs while following technical specifications and structured development practices."
+  ]
+}
   ],
   "education": [
     {
